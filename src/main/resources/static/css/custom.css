@@ -1,0 +1,78 @@
+  .banner-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .content-image {
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    color: white;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+  }
+
+  .content-image h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: yellowgreen;
+  }
+
+  .content-image h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .btn-custom {
+      background-color: #046836; /* Màu xanh lá cây như trong ảnh */
+      color: white;
+  }
+  .btn-custom:hover {
+      background-color: #0e3823; /* Màu xanh lá cây đậm hơn khi hover */
+  }
+  .section-title {
+      color: #046836; /* Màu xanh lá cây cho tiêu đề */
+      font-weight: bold;
+      margin-bottom: 20px;
+  }
+  .section-description {
+      margin-bottom: 20px;
+
+  }
+  .btn{
+
+        background-color: #046836; /* Màu xanh lá cây cho nút */
+        color: white;
+  }
+    .btn:hover {
+        background-color: #36a86f; /* Màu xanh lá cây đậm hơn khi hover */
+    }
+
+  .banner-container h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8b8b8b;
+  }
+  .content-image h2 {
+    font-size: 3vw; /* Chữ to lên khi ảnh lớn */
+    font-weight: bold;
+}
+
+.content-image h3 {
+    font-size: 1.5vw; /* Chữ nhỏ hơn */
+}
+
+@media (max-width: 768px) { 
+    .content-image h2 {
+        font-size: 5vw; /* Khi màn hình nhỏ, chữ lớn hơn */
+    }
+    .content-image h3 {
+        font-size: 3vw;
+    }
+}
