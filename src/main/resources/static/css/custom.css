@@ -110,3 +110,30 @@
 .content-banner-image{
   padding-top: 65px;
 }
+@keyframes shake {
+  0%, 95% { transform: translate(0, 0); } /* Giữ nguyên trong 95% thời gian */
+  97% { transform: translate(-3px, 3px); }
+  99% { transform: translate(3px, -3px); }
+  100% { transform: translate(0, 0); }
+}
+
+#floating-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#floating-icons a img {
+  animation: shake 2s infinite; 
+}
+
+#floating-icons a:nth-child(1) img {
+  animation-delay: 0s; 
+}
+
+#floating-icons a:nth-child(2) img {
+  animation-delay: 2s; 
+}
