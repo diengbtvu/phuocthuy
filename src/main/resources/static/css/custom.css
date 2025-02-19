@@ -1,4 +1,4 @@
-  .banner-container {
+.banner-container {
     position: relative;
     display: inline-block;
     width: 100%;
@@ -73,6 +73,40 @@
         font-size: 5vw; /* Khi màn hình nhỏ, chữ lớn hơn */
     }
     .content-image h3 {
-        font-size: 3vw;
+        font-size: 0.5vw;
+        display: none; 
     }
+}
+
+  
+  @media (max-width: 768px) {
+    .content-image {
+      padding: 10px;
+      top:0;
+      left: -2px;
+      margin: 5px;
+    }
+    .content-image h2, .content-image h3 {
+      font-size: 1.2rem;
+    }
+    .content-image button {
+      font-size: 0.9rem;
+    }
+    .banner-container img {
+      border-radius: 15px; /* Bo góc cho hình ảnh trên giao diện mobile */
+    }
+    .hidden-mobile-responsive{
+      display: none;
+    }
+  }
+
+  .footer-color-text{
+    color: #046836;;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  
+.content-banner-image{
+  padding-top: 65px;
 }
