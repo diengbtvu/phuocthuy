@@ -98,6 +98,10 @@
     .hidden-mobile-responsive{
       display: none;
     }
+    footer iframe{
+      width: 100%;
+      height: auto;
+    }
   }
 
   .footer-color-text{
