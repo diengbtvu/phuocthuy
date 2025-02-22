@@ -60,7 +60,7 @@
     color: #8b8b8b;
   }
   .content-image h2 {
-    font-size: 3vw; /* Chữ to lên khi ảnh lớn */
+    font-size: 2vw; /* Chữ to lên khi ảnh lớn */
     font-weight: bold;
 }
 
@@ -70,7 +70,7 @@
 
 @media (max-width: 768px) { 
     .content-image h2 {
-        font-size: 5vw; /* Khi màn hình nhỏ, chữ lớn hơn */
+        font-size: 3vw; /* Khi màn hình nhỏ, chữ lớn hơn */
     }
     .content-image h3 {
         font-size: 0.5vw;
