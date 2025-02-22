@@ -137,3 +137,7 @@
 #floating-icons a:nth-child(2) img {
   animation-delay: 2s; 
 }
+
+.navbar-nav li a:hover{
+  color: #8b8b8b;
+}
